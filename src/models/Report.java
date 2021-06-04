@@ -15,7 +15,7 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
-@Table(name = "reqports")
+@Table(name = "reports")
 @NamedQueries({
     @NamedQuery(
         name = "getAllReports",
